@@ -1,5 +1,6 @@
-# FreeRTOS + Claude
+# FreeRTOS
 
+## Claude
 The goal here is to explore the basics for setting up and using FreeTROS. Unlike all my other projects to this point, I'll use Claude Code and perhaps some others, since I need to also learn what they can do. But the goal is still understanding, not the finish line, and I don't want those tools to get in the way of that.
 
 I first asked Claude to make me a bare bones FreeRTOS project, without saying anything about hardware. It made.. something.. and claims it runs on Linux. Time to investigate!
@@ -23,4 +24,6 @@ I followed its build instructions (had to install cmake), ran it, and voila, pri
 
 Now I know!
 
-So I think I will detour a bit and just build up the FreeRTOS demo manually the old fashioned way. I shoved the Claude version into its own directory, but bumped up the FreeRTOS directory expecting to be shared with the manual demo. Adjusted CMake config so the Claude app works with the change. 
+So I think I will detour a bit and just build up the FreeRTOS demo manually the old fashioned way. I shoved the Claude version into its own directory, but bumped up the FreeRTOS directory expecting to be shared with the manual demo. Adjusted CMake config so the Claude app works with the change.
+
+## Manual
