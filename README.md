@@ -22,3 +22,5 @@ I followed its build instructions (had to install cmake), ran it, and voila, pri
  https://freertos.org/Documentation/02-Kernel/03-Supported-devices/04-Demos/03-Emulation-and-simulation/Linux/FreeRTOS-simulator-for-Linux.
 
 Now I know!
+
+This established what Claude will provide as a starting point without any special hardware. Next steps here could be to ask Claude to adapt it to my hardware, but instead I have a craving to just build up the FreeRTOS demo manually the old fashioned way, as directed by the website, and and to my hardware. I think I will learn more that way. At first I tried to shuffle things around and keep everything in one repo, but then realized it will work better to just have the two starting points completely separate. So for now I switch over to working on a different FreeRTOS repo. I'll return here if I have anything else for Claude to do. Meet you at the other repo!
